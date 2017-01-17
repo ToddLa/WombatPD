@@ -22,6 +22,7 @@
 		EF0FB16B1E2E9DAA0020410C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF0FB16E1E2E9DAA0020410C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF0FB1701E2E9DAA0020410C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF0FB1761E2EA0F40020410C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 				EF0FB16B1E2E9DAA0020410C /* Assets.xcassets */,
 				EF0FB16D1E2E9DAA0020410C /* LaunchScreen.storyboard */,
 				EF0FB1701E2E9DAA0020410C /* Info.plist */,
+				EF0FB1761E2EA0F40020410C /* README.md */,
 			);
 			path = WombatPD;
 			sourceTree = "<group>";
