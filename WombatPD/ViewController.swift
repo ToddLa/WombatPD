@@ -10,16 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var group: UIStackView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func onButtonClick(_ sender: UIButton) {
+        print("Wombat!")
+        UIView.animate(withDuration: 0.5) {
+            self.group.isHidden = !self.group.isHidden
+        }
     }
-
-
 }
 
